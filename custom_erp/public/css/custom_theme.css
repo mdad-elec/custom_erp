@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #52A8A8;
+  --secondary-color: #1A1E3F;
+  --accent-color: #2CC4AB;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.page-title h1 {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #408080;
+  border-color: #408080;
+}
+
+.sidebar-item.selected {
+  background-color: var(--primary-color);
+}
+
+.custom-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
